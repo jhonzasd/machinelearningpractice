@@ -1,0 +1,8 @@
+make: Entering directory '/workspace/scratch/af3b731c7d94/practice_ml'
+g++ -std=c++17 -g -O1 -Wall -Wextra -Wpedantic -fsanitize=address,undefined -fno-omit-frame-pointer -Iinclude src/regression.cpp src/dataset.cpp tests/test_regression.cpp -o build/tests_sanitized
+ASAN_OPTIONS=detect_leaks=1 ./build/tests_sanitized data
+==16==LeakSanitizer has encountered a fatal error.
+==16==HINT: For debugging, try setting environment variable LSAN_OPTIONS=verbosity=1:log_threads=1
+==16==HINT: LeakSanitizer does not work under ptrace (strace, gdb, etc)
+make: *** [Makefile:25: sanitize] Error 1
+make: Leaving directory '/workspace/scratch/af3b731c7d94/practice_ml'

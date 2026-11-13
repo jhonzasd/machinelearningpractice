@@ -1,0 +1,92 @@
+
+DATASET ice_cream
+file=practice_ml/data/Ice_cream_selling_data.csv rows=49 features=1 seed=42 train_fraction=0.8
+bias=16.3375801531
+weights: -0.946576634772
+train: n=39, MSE=156.698797711, RMSE=12.5179390361, MAE=11.1576012141, R2=0.0404547885816
+test: n=10, MSE=89.6810087669, RMSE=9.47000574271, MAE=7.17210414547, R2=-0.105467457094
+test_baseline_train_mean: n=10, MSE=86.165841634, RMSE=9.28255577058, MAE=7.62795973382, R2=-0.0621371809837
+test row=34 actual=8.17073493579 y_hat=14.3733384135 residual=-6.20260347774
+test row=12 actual=18.1239912127 y_hat=18.5035973882 residual=-0.379606175485
+test row=27 actual=0.789973650508 y_hat=15.5094154948 residual=-14.7194418443
+test row=38 actual=12.5682373937 y_hat=13.6571021017 residual=-1.08886470808
+test row=44 actual=26.1047404067 y_hat=13.1798644765 residual=12.9248759302
+test row=37 actual=15.9966199682 y_hat=13.7015190252 residual=2.29510094301
+test row=45 actual=28.9121879292 y_hat=12.9197016128 residual=15.9924863164
+test row=9 actual=19.2269700483 y_hat=18.8672691292 residual=0.359700919014
+test row=36 actual=10.3366306248 y_hat=13.9976938296 residual=-3.66106320475
+test row=30 actual=0.95311531241 y_hat=15.050413248 residual=-14.0972979356
+
+DATASET students
+file=practice_ml/data/student_exam_scores.csv rows=200 features=4 seed=42 train_fraction=0.8
+bias=-1.70611141829
+weights: 1.56245234861 0.926116015642 0.106409472573 0.176716962515
+train: n=160, MSE=7.75016388356, RMSE=2.78391161562, MAE=2.38084312097, R2=0.828528549277
+test: n=40, MSE=5.45493448641, RMSE=2.33558011775, MAE=1.91314856185, R2=0.883096840747
+test_baseline_train_mean: n=40, MSE=49.0163003906, RMSE=7.0011642168, MAE=5.7760625, R2=-0.0504544802187
+test row=135 actual=30.6 y_hat=28.5130285325 residual=2.08697146745
+test row=137 actual=29 y_hat=26.0044477259 residual=2.99555227406
+test row=48 actual=31.1 y_hat=31.3356868685 residual=-0.235686868468
+test row=168 actual=42 y_hat=45.5805981784 residual=-3.58059817843
+test row=125 actual=21.2 y_hat=21.9855550048 residual=-0.785555004789
+test row=20 actual=17.1 y_hat=22.2963745446 residual=-5.19637454461
+test row=90 actual=23.9 y_hat=24.4222171153 residual=-0.522217115315
+test row=176 actual=34.4 y_hat=30.8765630515 residual=3.52343694854
+test row=130 actual=39.2 y_hat=39.9073593037 residual=-0.707359303733
+test row=123 actual=44.1 y_hat=45.4782789687 residual=-1.3782789687
+test row=83 actual=39.8 y_hat=40.5054630589 residual=-0.705463058921
+test row=172 actual=31 y_hat=33.921188552 residual=-2.92118855199
+test row=161 actual=25.2 y_hat=25.9920046957 residual=-0.792004695671
+test row=36 actual=32 y_hat=34.0781560902 residual=-2.07815609015
+test row=139 actual=39.9 y_hat=42.0762994988 residual=-2.17629949876
+test row=92 actual=34 y_hat=36.8147438623 residual=-2.81474386231
+test row=54 actual=46.4 y_hat=43.8623035305 residual=2.53769646953
+test row=100 actual=37.1 y_hat=36.7862042648 residual=0.313795735169
+test row=181 actual=38.4 y_hat=37.9808384877 residual=0.419161512281
+test row=50 actual=30.6 y_hat=34.2801064392 residual=-3.68010643921
+test row=69 actual=33.5 y_hat=30.1748641634 residual=3.32513583662
+test row=94 actual=29.1 y_hat=28.2118591678 residual=0.888140832239
+test row=146 actual=33 y_hat=29.9606489117 residual=3.03935108834
+test row=180 actual=31.4 y_hat=33.8233416121 residual=-2.42334161209
+test row=53 actual=26.9 y_hat=25.670740352 residual=1.22925964796
+test row=142 actual=43.3 y_hat=39.9547496097 residual=3.34525039025
+test row=159 actual=29.5 y_hat=31.1950009547 residual=-1.69500095466
+test row=196 actual=42.7 y_hat=45.0775308873 residual=-2.37753088725
+test row=104 actual=32.6 y_hat=36.3331353888 residual=-3.73313538883
+test row=79 actual=26.5 y_hat=29.5128621064 residual=-3.01286210639
+test row=39 actual=39.8 y_hat=39.3553607433 residual=0.444639256691
+test row=167 actual=30.3 y_hat=29.5558006042 residual=0.744199395829
+test row=63 actual=27.1 y_hat=29.6553958789 residual=-2.5553958789
+test row=45 actual=26.1 y_hat=26.5624819786 residual=-0.46248197858
+test row=51 actual=28.8 y_hat=30.5594692827 residual=-1.75946928265
+test row=47 actual=31.6 y_hat=30.9164321752 residual=0.68356782478
+test row=75 actual=33.5 y_hat=33.0866825299 residual=0.413317470132
+test row=197 actual=40.4 y_hat=40.3500146196 residual=0.0499853803916
+test row=56 actual=37 y_hat=37.4476184739 residual=-0.447618473866
+test row=143 actual=19 y_hat=23.4456121993 residual=-4.44561219926
+
+MEMORY ANALYSIS
+compiler=14.2.0
+sizeof(void*)=8
+sizeof(double)=8
+sizeof(bool)=1
+sizeof(vector<double>)=24
+sizeof(LinearRegression)=88
+alignof(LinearRegression)=8
+global object=0x55fadcab7ec0 weights_buffer=0x502000001c90 sizeof=88 live_dynamic_bytes=48 allocated_dynamic_bytes=48
+local object=0x7f273b900810 weights_buffer=0x502000001d50 sizeof=88 live_dynamic_bytes=48 allocated_dynamic_bytes=48
+dynamic object=0x5080000003a0 weights_buffer=0x502000001e10 sizeof=88 live_dynamic_bytes=48 allocated_dynamic_bytes=48
+dynamic_owner_on_stack=0x7f273b900130 sizeof_owner=8
+models[0]=0x512000000c40 weights_buffer=0x502000001e90
+models[1]=0x512000000c98 weights_buffer=0x502000001ef0
+models[2]=0x512000000cf0 weights_buffer=0x502000001f50
+vector_object=0x50300000bdd0 vector_data=0x512000000c40
+vector_size=3 vector_capacity=3
+sizeof_vector_object=24
+live_elements_bytes=264
+reserved_elements_bytes=264
+nested_live_bytes=144
+nested_allocated_bytes=144
+known_dynamic_total=432
+NOTE: excludes allocator metadata, rounding, other allocations and local owners.
+Addresses and implementation-dependent sizes may change across runs/platforms.

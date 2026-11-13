@@ -1,0 +1,33 @@
+PASS T01 recta exacta: y=1+2x
+PASS T02 multiple exacta: y=1+2x1+3x2
+PASS T03 escalado: media 0 y varianza poblacional 1
+PASS T04 no fuga: test x=100 no cambia media=1.5
+PASS T05 metricas conocidas MSE=5/3 MAE=1 R2=-1.5
+PASS T06 atributo constante se absorbe en intercepto
+PASS T07 todos los atributos constantes: predice media=4
+PASS T08 objetivo constante: RMSE=0 y R2 indefinido
+PASS T09 predict antes de fit rechaza
+PASS T10 escalado antes de fit rechaza
+PASS T11 X vacia rechaza
+PASS T12 matriz irregular rechaza
+PASS T13 X e y incompatibles rechaza
+PASS T14 NaN en X rechaza
+PASS T15 infinito en y rechaza
+PASS T16 dimension incorrecta en predict rechaza
+PASS T17 colinealidad exacta rechaza
+PASS T18 sistema subdeterminado rechaza
+PASS T19 fit fallido conserva ajuste anterior
+PASS T20 copiar modelo conserva independencia
+PASS T21 cambiar numero de atributos al reentrenar
+PASS T22 CSV BOM CRLF y campos entre comillas
+PASS T23 CSV celda vacia rechaza
+PASS T24 CSV texto numerico invalido rechaza
+PASS T25 CSV cantidad de columnas rechaza
+PASS T26 particion repetible completa y disjunta
+PASS T27 fraccion invalida rechaza
+PASS T28 datasets reales 49x1 y 200x4
+PASS T29 memoria profunda aumenta con atributos
+PASS T30 QR independiente conocida
+PASS T31 metricas tamanos incompatibles rechaza
+PASS T32 CSV comillas sin cerrar rechaza
+SUMMARY passed=32 failed=0

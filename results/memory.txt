@@ -1,0 +1,25 @@
+MEMORY ANALYSIS
+compiler=14.2.0
+sizeof(void*)=8
+sizeof(double)=8
+sizeof(bool)=1
+sizeof(vector<double>)=24
+sizeof(LinearRegression)=88
+alignof(LinearRegression)=8
+global object=0x56245612e500 weights_buffer=0x56246601b780 sizeof=88 live_dynamic_bytes=48 allocated_dynamic_bytes=48
+local object=0x7ffd000570b0 weights_buffer=0x562466019b80 sizeof=88 live_dynamic_bytes=48 allocated_dynamic_bytes=48
+dynamic object=0x562466010320 weights_buffer=0x56246601b7a0 sizeof=88 live_dynamic_bytes=48 allocated_dynamic_bytes=48
+dynamic_owner_on_stack=0x7ffd00056fa8 sizeof_owner=8
+models[0]=0x562466010fd0 weights_buffer=0x56246600fbc0
+models[1]=0x562466011028 weights_buffer=0x562466018af0
+models[2]=0x562466011080 weights_buffer=0x562466018b70
+vector_object=0x562466010580 vector_data=0x562466010fd0
+vector_size=3 vector_capacity=3
+sizeof_vector_object=24
+live_elements_bytes=264
+reserved_elements_bytes=264
+nested_live_bytes=144
+nested_allocated_bytes=144
+known_dynamic_total=432
+NOTE: excludes allocator metadata, rounding, other allocations and local owners.
+Addresses and implementation-dependent sizes may change across runs/platforms.
